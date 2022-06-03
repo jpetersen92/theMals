@@ -1,0 +1,29 @@
+nav {
+    padding: 15px;
+    border-bottom: 1px solid $text;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            padding: 10px;
+            margin: 0 10px;
+            font-size: 0.8rem;
+
+            a {
+                color: $text;
+            }
+        }
+    }
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 69.4px);
+    background-image: url(../../assest/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}

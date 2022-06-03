@@ -237,6 +237,100 @@ html {
 }
 
 html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper {
+  max-width: 1400px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 50px 0;
+}
+
+html {
   font-size: 125%;
   font-family: "Lato", sans-serif;
+}
+
+nav {
+  padding: 15px;
+  border-bottom: 1px solid #323c49;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav ul li {
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 0.8rem;
+}
+nav ul li a {
+  color: #323c49;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: calc(100vh - 69.4px);
+  background-image: url(../../assest/hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#about img {
+  width: 50%;
+  margin-right: 25px;
+}
+#about .aboutContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#about .aboutDetails {
+  width: 50%;
+  margin-left: 25px;
 }

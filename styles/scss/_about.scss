@@ -1,0 +1,18 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 50%;
+        margin-right: 25px;
+    }
+    .aboutContainer {
+        display: flex;
+    }
+    .aboutDetails {
+        width: 50%;
+        margin-left: 25px;
+    }
+}
