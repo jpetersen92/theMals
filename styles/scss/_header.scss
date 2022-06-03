@@ -1,20 +1,31 @@
+header {
+    position: relative;
+}
+
 nav {
     padding: 15px;
-    border-bottom: 1px solid $text;
+    border-bottom: 1px solid $secondary;
 
     ul {
         display: flex;
         justify-content: center;
         align-items: center;
-
+        
         li {
-            padding: 10px;
             margin: 0 10px;
             font-size: 0.8rem;
-
+            padding: 5px;
+            
             a {
+                padding: 5px;
                 color: $text;
             }
+        }
+        
+        a:hover {
+            color: $primary;
+            border-bottom: 1px solid $primary;
+            border-top: 1px solid $primary;
         }
     }
 }
@@ -22,8 +33,29 @@ nav {
 .hero {
     display: flex;
     justify-content: center;
-    height: calc(100vh - 69.4px);
+    height: calc(100vh - 50px);
     background-image: url(../../assest/hero.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.custom-shape-divider-bottom-1654290139 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1654290139 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 62px;
+}
+
+.custom-shape-divider-bottom-1654290139 .shape-fill {
+    fill: $secondary;
 }

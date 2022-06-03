@@ -28,3 +28,10 @@ a {
 h2 {
     margin: 50px 0;
 }
+
+#about, #partners, #contacts, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
