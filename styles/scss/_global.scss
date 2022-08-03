@@ -1,8 +1,11 @@
-$primary: #1a7e5d;
-$secondary: #4b596d;
+$primary: #a69d86;
+$secondary: #4f5b6c;
+$offWhite: #e1e2e2;
+
 
 html {
     scroll-behavior: smooth;
+    background-color: $offWhite;
 }
 
 ul {

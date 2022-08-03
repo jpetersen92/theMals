@@ -238,6 +238,7 @@ html {
 
 html {
   scroll-behavior: smooth;
+  background-color: #e1e2e2;
 }
 
 ul {
@@ -291,7 +292,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  color: #1a7e5d;
+  color: #a69d86;
   margin: 0;
 }
 
@@ -301,7 +302,7 @@ header {
 
 nav {
   padding: 15px;
-  border-bottom: 1px solid #4b596d;
+  border-bottom: 1px solid #4f5b6c;
 }
 nav ul {
   display: -webkit-box;
@@ -321,12 +322,12 @@ nav ul li {
 }
 nav ul li a {
   padding: 5px;
-  color: #323c49;
+  color: #282716;
 }
 nav ul a:hover {
-  color: #1a7e5d;
-  border-bottom: 1px solid #1a7e5d;
-  border-top: 1px solid #1a7e5d;
+  color: #a69d86;
+  border-bottom: 1px solid #a69d86;
+  border-top: 1px solid #a69d86;
 }
 
 .hero {
@@ -339,38 +340,16 @@ nav ul a:hover {
   height: calc(100vh - 50px);
   background-image: url(../../assest/hero.jpg);
   background-size: cover;
-  background-position: center;
-}
-
-.custom-shape-divider-bottom-1654290139 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1654290139 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 62px;
-}
-
-.custom-shape-divider-bottom-1654290139 .shape-fill {
-  fill: #4b596d;
+  background-position: bottom;
 }
 
 #about {
-  background-color: #4b596d;
-  color: #fff;
+  background-color: #4f5b6c;
+  color: #e1e2e2;
   padding: 50px 0;
 }
 #about h2, #about a {
-  color: #fff;
+  color: #e1e2e2;
 }
 #about img {
   width: 50%;
@@ -418,26 +397,4 @@ nav ul a:hover {
 }
 #about .socials li a p {
   margin: 5px 0;
-}
-
-#partners {
-  position: relative;
-  padding: 50px 0;
-}
-#partners .custom-shape-divider-top-1654290739 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-#partners .custom-shape-divider-top-1654290739 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 62px;
-}
-#partners .custom-shape-divider-top-1654290739 .shape-fill {
-  fill: #4b596d;
 }
