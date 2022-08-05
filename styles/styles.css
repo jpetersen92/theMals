@@ -370,6 +370,8 @@ nav ul li {
 nav ul li a {
   padding: 5px;
   color: #282716;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 nav ul a:hover {
   color: #a69d86;
@@ -507,6 +509,11 @@ nav ul a:hover {
 }
 #contacts a {
   margin: 0 25px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#contacts a:hover {
+  color: #a69d86;
 }
 #contacts img {
   margin-top: 50px;
