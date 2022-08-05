@@ -394,6 +394,7 @@ nav ul a:hover {
   background-color: #4f5b6c;
   color: #e1e2e2;
   padding: 50px 0 75px;
+  overflow: hidden;
 }
 #about h2 {
   font-size: 2rem;
@@ -490,6 +491,7 @@ nav ul a:hover {
 
 #contacts {
   margin: 50px;
+  overflow: hidden;
 }
 #contacts .contactInfo {
   display: -webkit-box;
