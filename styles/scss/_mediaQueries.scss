@@ -40,32 +40,56 @@
         height: 0;
         padding: 0;
 
+        .mobile {
+            display: inline-block;
+        }
+
         h2 {
             display: inline-block;
-            font-size: 7rem;
+            font-size: 6rem;
             top: 20px;
-            left: calc(50% - (7rem / 2));
+            left: calc(50% - (6rem / 2));
         }
         
         ul {
             position: absolute;
-            top: 10px;
+            top: 70px;
             right: -165px;
             flex-direction: column;
+            align-items: flex-end;
+            transition: 0.5s;
+
         }
     }
     h1, h2 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     #about {
+        padding-bottom: 0;
         h2 {
             font-size: 1.5rem;
             text-align: center;
         }
         p {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             text-align: center;
         }
+        .aboutContainer {
+            margin-top: 25px;
+        }
+        .aboutDetails {
+            width: 100%;
+        }
+    }
+    .sectionDivider {
+        display: none;
+    }
+    #contacts a {
+        margin: 0 15px;
+    }
+
+    footer {
+        font-size: 0.6rem;
     }
 }

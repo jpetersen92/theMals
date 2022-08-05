@@ -6,6 +6,16 @@ nav {
     padding: 15px;
     border-bottom: 1px solid $secondary;
 
+    .mobile {
+        display: none;
+        color: $primary;
+        font-size: 1.7rem;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        cursor: pointer;
+    }
+
     h2 {
         position: absolute;
         top: 5px;

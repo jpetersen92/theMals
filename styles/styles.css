@@ -303,6 +303,14 @@ h2 {
   margin: 5px 0;
 }
 
+.hidden {
+  display: none;
+}
+
+.show {
+  right: 10px;
+}
+
 html {
   font-size: 125%;
   font-family: "Lato", sans-serif;
@@ -326,6 +334,15 @@ header {
 nav {
   padding: 15px;
   border-bottom: 1px solid #4f5b6c;
+}
+nav .mobile {
+  display: none;
+  color: #a69d86;
+  font-size: 1.7rem;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  cursor: pointer;
 }
 nav h2 {
   position: absolute;
@@ -491,6 +508,7 @@ nav ul a:hover {
 #contacts img {
   margin-top: 50px;
   max-width: 700px;
+  min-width: 420px;
   width: 90%;
 }
 
@@ -539,30 +557,56 @@ nav ul a:hover {
     height: 0;
     padding: 0;
   }
+  nav .mobile {
+    display: inline-block;
+  }
   nav h2 {
     display: inline-block;
-    font-size: 7rem;
+    font-size: 6rem;
     top: 20px;
-    left: calc(50% - 3.5rem);
+    left: calc(50% - 3rem);
   }
   nav ul {
     position: absolute;
-    top: 10px;
+    top: 70px;
     right: -165px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   h1, h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+  }
+  #about {
+    padding-bottom: 0;
   }
   #about h2 {
     font-size: 1.5rem;
     text-align: center;
   }
   #about p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
+  }
+  #about .aboutContainer {
+    margin-top: 25px;
+  }
+  #about .aboutDetails {
+    width: 100%;
+  }
+  .sectionDivider {
+    display: none;
+  }
+  #contacts a {
+    margin: 0 15px;
+  }
+  footer {
+    font-size: 0.6rem;
   }
 }
