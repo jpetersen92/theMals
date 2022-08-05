@@ -329,6 +329,7 @@ h2 {
 
 header {
   position: relative;
+  overflow: hidden;
 }
 
 nav {
