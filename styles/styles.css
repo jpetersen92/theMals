@@ -281,6 +281,29 @@ h2 {
           align-items: center;
 }
 
+.socialLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+}
+.socialLink i {
+  font-size: 1.5rem;
+}
+.socialLink p {
+  margin: 5px 0;
+}
+
 html {
   font-size: 125%;
   font-family: "Lato", sans-serif;
@@ -288,6 +311,7 @@ html {
 
 h1 {
   font-size: 3rem;
+  margin: 0;
 }
 
 h2 {
@@ -303,6 +327,11 @@ header {
 nav {
   padding: 15px;
   border-bottom: 1px solid #4f5b6c;
+}
+nav h2 {
+  position: absolute;
+  top: 5px;
+  left: 20px;
 }
 nav ul {
   display: -webkit-box;
@@ -346,7 +375,7 @@ nav ul a:hover {
 #about {
   background-color: #4f5b6c;
   color: #e1e2e2;
-  padding: 50px 0;
+  padding: 50px 0 75px;
 }
 #about h2, #about a {
   color: #e1e2e2;
@@ -376,7 +405,28 @@ nav ul a:hover {
       -ms-flex-align: center;
           align-items: center;
 }
-#about .socials li a {
+
+#partners {
+  padding-top: 50px;
+  background-color: #a69d86;
+}
+#partners h2 {
+  color: #e1e2e2;
+}
+#partners .partnersContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 800px;
+  width: 100%;
+  margin: 50px;
+}
+#partners .cardContainer a {
+  margin: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,11 +440,21 @@ nav ul a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 50px;
+  width: 300px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
-#about .socials li a i {
-  font-size: 1.5rem;
+#partners .cardContainer .ywam {
+  width: 53%;
 }
-#about .socials li a p {
-  margin: 5px 0;
+#partners .cardContainer a:hover {
+  scale: 1.2;
+}
+#partners .sectionDivider {
+  opacity: 0.7;
+  width: 100%;
+  height: 300px;
+  background-image: url(../assest/divider.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }

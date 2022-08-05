@@ -1,0 +1,43 @@
+#partners {
+    padding-top: 50px;
+    background-color: $primary;
+
+    h2 {
+        color: $offWhite;
+    }
+
+    .partnersContainer {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 800px;
+        width: 100%;
+        margin: 50px;
+    }
+    .cardContainer {
+
+        a {
+            margin: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            transition: 0.5s;
+        }
+        .ywam {
+            width: 53%;
+        }
+        a:hover {
+            scale: 1.2;
+        }
+    }
+    .sectionDivider {
+        opacity: 0.7;
+        width: 100%;
+        height: 300px;
+        background-image: url(../assest/divider.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}

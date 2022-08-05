@@ -38,3 +38,19 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+.socialLink {
+    display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-right: 50px;
+
+            i {
+                font-size: 1.5rem;
+            }
+
+            p {
+                margin: 5px 0;
+            }
+}
