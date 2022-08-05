@@ -295,7 +295,6 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 50px;
 }
 .socialLink i {
   font-size: 1.5rem;
@@ -315,7 +314,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #a69d86;
   margin: 0;
 }
@@ -332,6 +331,7 @@ nav h2 {
   position: absolute;
   top: 5px;
   left: 20px;
+  font-size: 2rem;
 }
 nav ul {
   display: -webkit-box;
@@ -377,11 +377,15 @@ nav ul a:hover {
   color: #e1e2e2;
   padding: 50px 0 75px;
 }
+#about h2 {
+  font-size: 2rem;
+}
 #about h2, #about a {
   color: #e1e2e2;
 }
 #about img {
   width: 50%;
+  height: 100%;
   margin-right: 25px;
 }
 #about .aboutContainer {
@@ -404,6 +408,12 @@ nav ul a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+#about .socials li a {
+  margin-right: 50px;
+}
+#about .socials li a:hover {
+  color: #fff;
 }
 
 #partners {
@@ -456,5 +466,103 @@ nav ul a:hover {
   height: 300px;
   background-image: url(../assest/divider.jpg);
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
+}
+
+#contacts {
+  margin: 50px;
+}
+#contacts .contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 25px 0;
+}
+#contacts a {
+  margin: 0 25px;
+}
+#contacts img {
+  margin-top: 50px;
+  max-width: 700px;
+  width: 90%;
+}
+
+@media (max-width: 1275px) {
+  #about .aboutContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #about img {
+    margin-right: 0;
+    width: 500px;
+  }
+  #about .aboutDetails {
+    margin-left: 0;
+    width: 90%;
+    margin-bottom: 25px;
+  }
+  #about .socials {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #about .socials li a {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 745px) {
+  nav h2 {
+    display: none;
+  }
+}
+@media (max-width: 570px) {
+  .hero {
+    height: 100vh;
+  }
+  nav {
+    border: none;
+    height: 0;
+    padding: 0;
+  }
+  nav h2 {
+    display: inline-block;
+    font-size: 7rem;
+    top: 20px;
+    left: calc(50% - 3.5rem);
+  }
+  nav ul {
+    position: absolute;
+    top: 10px;
+    right: -165px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  h1, h2 {
+    font-size: 2.5rem;
+  }
+  #about h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #about p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
 }

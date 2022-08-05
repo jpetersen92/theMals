@@ -1,0 +1,20 @@
+#contacts {
+    margin: 50px;
+
+    .contactInfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px 0;
+    }
+
+    a {
+        margin: 0 25px;
+    }
+
+    img {
+        margin-top: 50px;
+        max-width: 700px;
+        width: 90%;
+    }
+}

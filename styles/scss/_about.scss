@@ -3,12 +3,17 @@
     color: $secondaryText;
     padding: 50px 0 75px;
 
+    h2 {
+        font-size: 2rem;
+    }
+
     h2, a {
         color: $secondaryText;
     }
 
     img {
         width: 50%;
+        height: 100%;
         margin-right: 25px;
     }
     .aboutContainer {
@@ -25,20 +30,12 @@
         justify-content: flex-start;
         align-items: center;
 
-        // li a {
-        //     display: flex;
-        //     flex-direction: column;
-        //     justify-content: center;
-        //     align-items: center;
-        //     margin-right: 50px;
+        li a {
+            margin-right: 50px;
+        }
 
-        //     i {
-        //         font-size: 1.5rem;
-        //     }
-
-        //     p {
-        //         margin: 5px 0;
-        //     }
-        // }
+        li a:hover {
+            color: #fff;
+        }
     }
 }
