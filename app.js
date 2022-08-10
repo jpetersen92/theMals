@@ -3,7 +3,6 @@ gsap.registerPlugin(ScrollTrigger);
 
 malApp.preloader = () => {
     window.addEventListener('load', () => {
-        console.log('I am loaded')
         const preloader = document.querySelector('.preloader')
         preloader.classList.add('preloaderFinish')
     });
