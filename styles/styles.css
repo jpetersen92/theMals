@@ -485,6 +485,7 @@ nav ul a:hover {
 #partners {
   padding-top: 50px;
   background-color: #a69d86;
+  overflow: hidden;
 }
 #partners h2 {
   color: #e1e2e2;
