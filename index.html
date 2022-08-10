@@ -32,10 +32,10 @@
             <h1>The Malinowski's</h1>
             <div class="wrapper">
                 <div class="aboutContainer">
-                    <img src="./assest/theMals.jpg" alt="The Malinowski's family portrait">
+                    <img id="aboutImage" src="./assest/theMals.jpg" alt="The Malinowski's family portrait">
                     <div class="aboutDetails">
                         <h2>About Us</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, sint in et possimus voluptate ipsa officia odit quam? Adipisci culpa expedita corrupti molestiae vitae nulla sunt nostrum assumenda dicta, itaque corporis eum soluta totam architecto blanditiis amet accusamus inventore. Alias perferendis illum obcaecati velit tempore aliquid laboriosam labore, tempora odit, voluptate, tenetur perspiciatis. Ab perspiciatis adipisci autem iusto aliquam hic fugiat nesciunt sint quibusdam velit consequatur quam sapiente, eligendi necessitatibus dolorum odit, at error beatae et animi nihil cum dolores. Illum maxime impedit consequuntur laboriosam non eos. Autem illum quod labore praesentium, quis similique nulla nam ipsam, placeat reprehenderit pariatur?</p>
+                        <p id="aboutBio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, sint in et possimus voluptate ipsa officia odit quam? Adipisci culpa expedita corrupti molestiae vitae nulla sunt nostrum assumenda dicta, itaque corporis eum soluta totam architecto blanditiis amet accusamus inventore. Alias perferendis illum obcaecati velit tempore aliquid laboriosam labore, tempora odit, voluptate, tenetur perspiciatis. Ab perspiciatis adipisci autem iusto aliquam hic fugiat nesciunt sint quibusdam velit consequatur quam sapiente, eligendi necessitatibus dolorum odit, at error beatae et animi nihil cum dolores. Illum maxime impedit consequuntur laboriosam non eos. Autem illum quod labore praesentium, quis similique nulla nam ipsam, placeat reprehenderit pariatur?</p>
 
                         <!-- SOCIAL LINKS -->
                         <ul class="socials">
@@ -60,13 +60,13 @@
         <section id="partners">
             <h2>Partners</h2>
             <div class="partnersContainer">
-                <div class="cardContainer">
+                <div id="partner1" class="cardContainer">
                     <a href="https://ywam.org">
                         <img class="ywam" src="https://ywam.org/wp-content/themes/ywam/assets/img/logo.svg" alt="">
                         <h3>Youth With A Mission</h3>
                     </a>
                 </div>
-                <div class="cardContainer">
+                <div id="partner2" class="cardContainer">
                     <a href="https://www.modelsforchrist.com">
                         <img src="https://www.modelsforchrist.com/images/mfc%20(logo)(white).svg?crc=4150524562" alt="Models For Christ">
                     </a>
@@ -78,39 +78,42 @@
             <h2>Contact Us</h2>
             <h3>Let's Conect</h3>
             <ul class="contactInfo">
-                <li>
+                <li id="social1">
                     <a class="socialLink" href="mailto:grahamandalissa@me.com">
                         <i class="fas fa-envelope"></i>
                         <p>Email</p>
                     </a>
                 </li>
                 <!-- <li><a href=""></a>Phone</li> -->
-                <li>
+                <li id="social2">
                     <a class="socialLink" href="https://www.instagram.com/amalinowski/">
                         <i class="fab fa-instagram"></i>
                         <p>Alissa</p>
                     </a>
                 </li>
-                <li>
+                <li id="social3">
                     <a class="socialLink" href="https://www.instagram.com/instagrahamgram/">
                         <i class="fab fa-instagram"></i>
                         <p>Graham</p>
                     </a>
                 </li>
-                <li>
+                <li id="social4">
                     <a class="socialLink" href="https://ywam.org/">
                         <i class="fas fa-globe-americas"></i>
                         <p>YWAM</p>
                     </a>
                 </li>
             </ul>
-            <img src="./assest/contactImage.jpg" alt="The Mal Family">
+            <img id="contactImage" src="./assest/contactImage.jpg" alt="The Mal Family">
         </section>
     </main>
     <footer>
         <p>The Malinowski's © | created by <a href="https://www.joshpetersencodes.com/">Josh Petersen</a> Web Services</p>
     </footer>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
     <script src="/app.js"></script>
 </body>
 </html>
