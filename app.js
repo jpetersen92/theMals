@@ -42,9 +42,9 @@ malApp.scroll = () => {
         opacity: 0, 
         duration: 1.5})
 
-    gsap.from('.aboutDetails', {
+    gsap.from('.aboutDetails h2', {
         scrollTrigger: {
-            trigger: '.aboutDetails',
+            trigger: '.aboutDetails h2',
             start: "top 95%",
             toggleActions: 'restart none none reverse'
         }, 
@@ -52,6 +52,28 @@ malApp.scroll = () => {
         x: 100, 
         opacity: 0, 
         duration: 1.5})
+
+    gsap.from('.aboutDetails #aboutBio', {
+        scrollTrigger: {
+            trigger: '.aboutDetails #aboutBio',
+            start: "top 95%",
+            toggleActions: 'restart none none reverse'
+        }, 
+        y: 100, 
+        x: 100, 
+        opacity: 0, 
+        duration: 1.5})
+
+        gsap.from('.aboutDetails .socials', {
+            scrollTrigger: {
+                trigger: '.aboutDetails .socials',
+                start: "top 95%",
+                toggleActions: 'restart none none reverse'
+            }, 
+            y: 100, 
+            x: 100, 
+            opacity: 0, 
+            duration: 1.5})
 
     // PARTNERS SECTION
     gsap.from('#partners h2', {
