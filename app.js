@@ -1,5 +1,13 @@
 const malApp = {};
 
+malApp.preloader = () => {
+    window.addEventListener('load', () => {
+        console.log('I am loaded')
+        const preloader = document.querySelector('.preloader')
+        preloader.classList.add('preloaderFinish')
+    });
+}
+
 malApp.mobile = () => {
     const barMenu = document.getElementById('mobile');
     const mobileNav = document.querySelector('nav ul');
@@ -10,6 +18,7 @@ malApp.mobile = () => {
 }
 
 malApp.init = () => {
+    malApp.preloader()
     malApp.mobile()
 };
 
