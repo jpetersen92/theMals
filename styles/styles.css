@@ -411,8 +411,8 @@ nav ul a:hover {
   font-size: 6rem;
   -webkit-animation: logo 1s ease infinite alternate;
           animation: logo 1s ease infinite alternate;
-  -webkit-transition: opacity 0.5s ease;
-  transition: opacity 0.5s ease;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
 }
 
 .preloaderFinish {
@@ -538,7 +538,7 @@ nav ul a:hover {
 }
 
 #contacts {
-  margin: 50px;
+  margin: 50px 0;
   overflow: hidden;
 }
 #contacts .contactInfo {
